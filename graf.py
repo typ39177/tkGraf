@@ -34,7 +34,7 @@ class graf(tk.Tk):
                 axisx.append(float(x))
                 axisy.append(float(y))
             pl.plot(axisx, axisy)        
-            pl.show
+            pl.show()
 
 app = graf()
 app.mainloop()
